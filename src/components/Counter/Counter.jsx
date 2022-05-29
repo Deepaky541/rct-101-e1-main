@@ -4,7 +4,7 @@ import styles from "./counter.module.css";
 const Counter = () => {
   // sample value to be replaced
   
-  const[count,setCount]=useState(1);
+  const[count,setCount]=useState(0);
   const addCountHandler=()=>{
     setCount(count+1);
   }
