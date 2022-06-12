@@ -14,7 +14,7 @@ const Task = ({info,ondelete}) => {
  
   // NOTE: do not delete `data-cy` key value pair
   return (
-    <div>
+    <div className="task">
       <li data-cy="task" className={styles.task}>
         <input
           type="checkbox"

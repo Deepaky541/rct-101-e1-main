@@ -1,7 +1,9 @@
-.task {
-  border: 1px solid black;
-}
+
 .truee{
   text-decoration: line-through;
   
+}
+.task{
+  display: flex;
+  justify-content: space-between;
 }
